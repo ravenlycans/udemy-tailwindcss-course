@@ -9,28 +9,90 @@
   </head>
   <body>
     <!-- Positioning -->
+    <div class="relative h-12-bg-red-200 w-1/2">
+      <p>Parent</p>
+      <div class="absolute bottom-0 right-0 bg-red-500">
+        Absolute Child.
+      </div>
+    </div>
+    <br />
 
     <!-- Top left corner -->
+    <div class="relative h-32 w-32 bg-yellow-100">
+      <div class="absolute left-0 top-0 h-16 w-16 bg-yellow-300"></div>
+    </div>
+    <br />
 
     <!-- Top right corner -->
+    <div class="relative h-32 w-32 bg-yellow-100">
+      <div class="absolute right-0 top-0 h-16 w-16 bg-yellow-300"></div>
+    </div>
+    <br />
+
 
     <!-- Bottom left corner -->
+    <div class="relative h-32 w-32 bg-yellow-100">
+      <div class="absolute left-0 bottom-0 h-16 w-16 bg-yellow-300"></div>
+    </div>
+    <br />
 
     <!-- Bottom right corner -->
+    <div class="relative h-32 w-32 bg-yellow-100">
+      <div class="absolute right-0 bottom-0 h-16 w-16 bg-yellow-300"></div>
+    </div>
+    <br />
 
     <!-- Span top edge -->
+    <div class="relative h-32 w-32 bg-yellow-100">
+      <div class="absolute inset-x-0 top-0 h-16 bg-yellow-300"></div>
+    </div>
+    <br />
+
+
 
     <!-- Span left edge -->
+    <div class="relative h-32 w-32 bg-yellow-100">
+      <div class="absolute inset-y-0 top-0 w-16 bg-yellow-300"></div>
+    </div>
+    <br />
 
     <!-- Span right edge -->
+    <div class="relative h-32 w-32 bg-yellow-100">
+      <div class="absolute inset-y-0 right-0 w-16 bg-yellow-300"></div>
+    </div>
+    <br />
 
     <!-- Span bottom edge -->
+    <div class="relative h-32 w-32 bg-yellow-100">
+      <div class="absolute inset-x-0 bottom-0 h-16 bg-yellow-300"></div>
+    </div>
+    <br />
 
     <!-- Display Classes -->
+    <div>
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum aperiam qui quos illo nihil perspiciatis odit ratione repellendus aut, id reprehenderit molestiae laboriosam numquam cum similique dolores optio aliquam expedita.
+      Est <span class="inline font-bold">This is inline</span> voluptatum laboriosam reiciendis architecto <span class="inline-block font-bold">This is inline block</span> itaque, saepe incidunt nam quisquam ipsum commodi! Consequatur suscipit sunt deleniti, ex nam expedita nemo saepe fuga dignissimos hic, veritatis perferendis doloremque, recusandae quo. Consequuntur!
+      Ipsum, ut veniam. Consectetur rem vitae eligendi  <span class="hidden font-bold">This is hidden.</span> ea recusandae veritatis tempore natus assumenda autem eius, aut accusamus ut  <span class="block font-bold">This is block.</span> culpa nostrum? Praesentium ab tenetur nam corrupti? Id in ipsam non laudantium.
+    </div>
+    <br />
 
     <!-- Z-Index -->
+    <div class="relative h-36">
+      <div class="absolute left-10 w-24 h-24 bg-blue-300 z-40">1</div>
+      <div class="absolute left-20 w-24 h-24 bg-blue-400">2</div>
+      <div class="absolute left-40 w-24 h-24 bg-blue-500 z-10">3</div>
+      <div class="absolute left-60 w-24 h-24 bg-blue-600 z-20">4</div>
+      <div class="absolute left-80 w-24 h-24 bg-blue-700 z-30">5</div>
+    </div>
+    <br />
 
     <!-- Floats -->
+    <div class="w-1/2">
+      <img src="../assets/img/img1.jpg" alt="" class="h-48 w-48 float-right p-4">
+      <p class="m-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea hic pariatur, nesciunt rerum rem facilis iusto, incidunt expedita corrupti nobis, explicabo numquam. Eius perspiciatis eligendi, dicta vitae molestiae ut amet.
+      Et laboriosam quibusdam voluptate soluta voluptatem pariatur quaerat, ad corporis, distinctio fugiat eligendi modi necessitatibus vel sequi. Commodi enim molestiae officia voluptas, porro veniam eius, ex tenetur libero, facilis officiis.
+      Eligendi nam deleniti odit perferendis ullam, voluptatem tempore minima eum eaque tenetur sint modi neque amet repellat, aliquid quas fugiat. Molestiae reprehenderit odio itaque consequuntur architecto id ipsum ratione quod.</p>
+    </div>
   </body>
 </html>
 
